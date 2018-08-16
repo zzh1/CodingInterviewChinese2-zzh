@@ -164,7 +164,8 @@ void test10()
     test("test10", numbers, 0, duplications, sizeof(duplications) / sizeof(int));
 }
 
-
+//思路：以取值范围内的数字为标准，查看数组在某个取值范围内的数量多于本范围，
+//以二分法不断缩小范围，直到收尾相等  
 
 int main(int argc, char *argv[])
 {

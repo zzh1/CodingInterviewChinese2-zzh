@@ -15,6 +15,8 @@ using namespace std;
 // C F C S
 // J D E H
 
+//此题解法为回溯法 
+
 bool hasPathCore(const char* matrix,int rows,int cols,int row,int col,const char* str,int& pathLength,bool* visited);
 
 bool hasPath(const char* matrix,int rows,int cols,const char* str)
